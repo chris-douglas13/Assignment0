@@ -1,4 +1,4 @@
-class Circle(_name: String, _radius: Double) : Shape(_name)  {
+class Circle(_radius: Double) : Shape(_name = "Circle")  {
     val radius = _radius
 
      fun setDimensions(_radius : Double){

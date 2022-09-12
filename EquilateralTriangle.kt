@@ -1,6 +1,6 @@
 import kotlin.math.sqrt
 
-class EquilateralTriangle(_name : String, _side : Double) : Triangle(){
+class EquilateralTriangle(_side : Double) : Shape(_name = "Equilateral Triangle"){
     val side = _side
     fun setDimensions(_side : Double){
         println("Equilateral Triangle side length:" + _side)

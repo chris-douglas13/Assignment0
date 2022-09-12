@@ -1,6 +1,6 @@
 import kotlin.math.sqrt
 
-abstract class Triangle(_name: String, _side1 : Double, _side2 :Double, _side3 : Double) : Shape(_name)  {
+abstract class Triangle(_side1 : Double, _side2 :Double, _side3 : Double) :  Shape(_name = "Triangle") {
     val side1 = _side1
     val side2 = _side2
     val side3 = _side3
