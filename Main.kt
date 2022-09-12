@@ -8,4 +8,6 @@ fun main(){
     triangle.getArea()
     square.getArea()
     equilTriangle.getArea()
+
+    //user inputs,printDimensions not implemented
 }
